@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MAX6675ISA-MAX6675ISA
+#
+DEF MAX6675ISA-MAX6675ISA IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "MAX6675ISA-MAX6675ISA" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "http://datasheets.maximintegrated.com/en/ds/MAX6675.pdf" 950 0 50 H I L CNN
+F4 "IC THERMOCOUP TO DGTL 8-SOIC" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "Maxim Integrated" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MAX6675ISA" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 950 -700 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" 950 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+X GND 1 0 0 200 R 50 50 0 0 B
+X T- 2 0 -100 200 R 50 50 0 0 B
+X T+ 3 0 -200 200 R 50 50 0 0 B
+X VCC 4 0 -300 200 R 50 50 0 0 B
+X SCK 5 1100 -300 200 L 50 50 0 0 B
+X ~CS 6 1100 -200 200 L 50 50 0 0 B
+X SO 7 1100 -100 200 L 50 50 0 0 B
+X N.C. 8 1100 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library

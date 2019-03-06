@@ -46,15 +46,13 @@ void loop() {
     digitalWrite (ledG, LOW);
     delay(15);
  
- if (t > 26) {
+ if (t > 30) {
       digitalWrite (ledR1, HIGH);
     } else {
       digitalWrite (ledR1, LOW);
     }
-    if (h < 32) {
+    if (h < 50) {
       digitalWrite (ledR2, HIGH);
-    } else {
-      digitalWrite (ledR2, LOW);
     }
   }
 
